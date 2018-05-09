@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JMBF - Corretora de Seguros</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/es.css" rel="stylesheet"> 
+	<link href="imagens/favicon.ico" rel="icon" type="imagens/png"/>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-target=".menu-navegacao" data-offset="80">
+    <!-- MENU DA APLICAÇÂO-->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div Class="container">
+          <div class="navbar-header">
+            <button type="button"class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php">JMBF - Corretora de Seguros<img src="" class=""></a>
+          </div>
+
+          <div class="collapse navbar-collapse menu-navegacao" id="menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#page-top"></a></li>
+              <li><a class="" href="index.php">Home</a></li>
+              <li><a class="" href="corretora.php">A Corretora</a></li>
+              <li class="dropdown">
+                    <a href="#" class="dropdown-toggle texto" data-toggle="dropdown">Seguros <span class="caret"></span></a>
+
+                            <ul class="dropdown-menu" role="menu">
+								<li><a href="odonto.php" >Plano Odontológico</a></li><li><a href="previdencia.php" >Previdência Privada</a></li><li><a href="acidentes.php" >Seguro de Acidentes Pessoais</a></li><li><a href="automovel.php" >Seguro de Automóvel</a></li><li><a href="vida.php" >Seguro de Vida</a></li><li><a href="empresarial.php" >Seguro Empresarial</a></li><li><a href="fianca.php" >Seguro Fiança</a></li><li><a href="imobiliaria.php" >Seguro Imobiliário</a></li><li><a href="estagiario.php" >Seguro para Estagiários</a></li><li><a href="residencial.php" >Seguro Residencial</a></li><li><a href="viagem.php" >Seguro Viagem Internacional</a></li>                            </ul>
+                </li>
+              <li><a class="" href="parceiros.php">Parceiros</a></li>
+			  <li><a class="" href="acao_social.php">Ação Social</a></li>
+              <li><a class="" href="contato.php">Fale Conosco</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- FIM DO MENU DA APLICAÇÂO--><!--SLIDER DA APLICAÇÃO -->
+    <div class="divSlider">
+      <div class="container">
+        <div class="col-xs-12">
+            <div id="sliderprincipal" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+				  <li data-target='#sliderprincipal' data-slide-to='1'></li><li data-target='#sliderprincipal' data-slide-to='2'></li><li data-target='#sliderprincipal' data-slide-to='3'></li>              </ol>
+
+              <div class="carousel-inner" role="listbox">
+				  <div class="item active"><img src='adm/upload/auto.jpg' alt='Imagem slider 0'></div><div class="item"><img src='adm/upload/residencia.jpg' alt='Imagem slider 1'></div><div class="item"><img src='adm/upload/empresa.jpg' alt='Imagem slider 2'></div>      
+              </div>
+
+              <a class="left carousel-control" href="#sliderprincipal" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+
+              <a class="right carousel-control" href="#sliderprincipal" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Próximo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- FIM SLIDER DA APLICAÇÃO -->	
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.a').hide();
+		$('.i').mouseenter(function(){
+			$('.a').show(1000);
+		});
+	});
+</script>
+
+ <section>
+		<div class="page-header">
+			<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<h1> <small>Conheça nossos seguros</small></h1>
+						</div>
+					</div>
+					
+					<div class="row"><div class="col-sm-4 col-md-4"><a href="vida.php"><img src="adm/upload/vida.jpg" class="img-responsive atividade i"></a><h4 class="text-center">Seguro de Vida</h4><p class="text-center">Garantia de tranquilidade e confiança que sua vida merece.</p><div class="col-sm-offset-4 col-md-offset-4"><a href="vida.php" class="atividades a">SAIBA MAIS</a></div></div><div class="col-sm-4 col-md-4"><a href="acidentes.php"><img src="adm/upload/acidentes.jpg" class="img-responsive atividade i"></a><h4 class="text-center">Seguro de Acidentes Pessoais</h4><p class="text-center">Proteja você e seus colaboradores.</p><div class="col-sm-offset-4 col-md-offset-4"><a href="acidentes.php" class="atividades a">SAIBA MAIS</a></div></div><div class="col-sm-4 col-md-4"><a href="viagem.php"><img src="adm/upload/viagem.jpg" class="img-responsive atividade i"></a><h4 class="text-center">Seguro Viagem Internacional</h4><p class="text-center">Tranquilidade para desfrutar suas viagens e passeios.</p><div class="col-sm-offset-4 col-md-offset-4"><a href="viagem.php" class="atividades a">SAIBA MAIS</a></div></div></div><div class="row"><div class="col-sm-4 col-md-4"><a href="estagiario.php"><img src="adm/upload/estagiarios.jpg" class="img-responsive atividade i"></a><h4 class="text-center">Seguro para Estagiários</h4><p class="text-center">Fique por dentro da lei e garanta a tranquilidade para seu estagiário</p><div class="col-sm-offset-4 col-md-offset-4"><a href="estagiario.php" class="atividades a">SAIBA MAIS</a></div></div><div class="col-sm-4 col-md-4"><a href="previdencia.php"><img src="adm/upload/previdencia.jpg" class="img-responsive atividade i"></a><h4 class="text-center">Previdência Privada</h4><p class="text-center">Tenha um futuro livre de preocupações.</p><div class="col-sm-offset-4 col-md-offset-4"><a href="previdencia.php" class="atividades a">SAIBA MAIS</a></div></div><div class="col-sm-4 col-md-4"><a href="odonto.php"><img src="adm/upload/odontologico.jpg" class="img-responsive atividade i"></a><h4 class="text-center">Plano Odontológico</h4><p class="text-center">Garanta seu melhor sorriso.</p><div class="col-sm-offset-4 col-md-offset-4"><a href="odonto.php" class="atividades a">SAIBA MAIS</a></div></div></div>					<br>
+					
+					<div class='row'>
+						<div class='col-md-5'>
+							<script type="text/javascript">
+								broker="Q3w1MDAwNTU4NDV8MDF8MDUxfDQzMXw="
+								img="https://www.hdi.com.br/images/hdi_auto/logo_hdi_calculo.png"
+							</script>
+							<script src="https://www.hdi.com.br/col/banner_hdi.js"></script>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-offset-5">
+							<div class="dropdown center">
+								<button type="button" class="btn btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Outros Seguros
+								<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="odonto.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Plano Odontológico</a></li><li><a href="previdencia.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Previdência Privada</a></li><li><a href="acidentes.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Seguro de Acidentes Pessoais</a></li><li><a href="automovel.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Seguro de Automóvel</a></li><li><a href="vida.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Seguro de Vida</a></li><li><a href="empresarial.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Seguro Empresarial</a></li><li><a href="fianca.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Seguro Fiança</a></li><li><a href="imobiliaria.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Seguro Imobiliário</a></li><li><a href="estagiario.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Seguro para Estagiários</a></li><li><a href="residencial.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Seguro Residencial</a></li><li><a href="viagem.php" ><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Seguro Viagem Internacional</a></li>								</ul>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+</section>	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10">
+					Acompanhe-nos nas redes sociais<br>
+					<a href="https://www.facebook.com/JoaoBernardoSeguros/?fref=ts" target="_blank"><img src="imagens/face.png" class="sociais"></a>
+				</div>
+				<div class="col-sm-2 text-right">
+					<small>Desenvolvido por: </small><br><a href="http://www.fivesystem.com.br" target="_blank">
+					<img src="imagens/Five.png" class="img-responsive logo_five"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	 </body>
+</html>
